@@ -1,4 +1,5 @@
-.body{
-background-color: aqua;
-
+.body { color: $purple; }
+.beta {
+  color: $yellow-300;
+  background-color: $indigo-900;
 }

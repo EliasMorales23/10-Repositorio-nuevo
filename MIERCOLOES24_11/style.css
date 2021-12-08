@@ -1,0 +1,46 @@
+body{
+    background-color:blue;
+    animation-name: animacion;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+ @keyframes animacion { 
+
+    to { background-color:red; }
+     }
+   
+    h1{
+        animation-name: probando;
+        font-size: 20px;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    
+     }
+ 
+     @keyframes probando{
+         to{ font-size:100% ;}
+             to{ font-size:50% ; }
+             to{ font-style: oblique;}
+            
+     
+            }
+
+        
+      img{ 
+                width: 300px;;
+                animation-name: foto;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+                animation-direction: alternate-reverse;
+
+            }
+
+            @keyframes foto{
+                to{ width: 100px;}
+
+
+}
